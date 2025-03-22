@@ -1,0 +1,8 @@
+spring:
+  config:
+    import: optional:file:/config/pokemon.yaml
+
+pokemon:
+  favourite: ${FAVOURITE_POKEMON:Pikachu}
+
+password: ${PASSWORD:}
