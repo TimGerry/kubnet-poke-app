@@ -9,6 +9,7 @@ public class PokemonConfig {
 
     private String favourite;
     private String message;
+    private String opponentUrl;
 
     public String getFavourite() {
         return favourite;
@@ -24,5 +25,13 @@ public class PokemonConfig {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public String getOpponentUrl() {
+        return opponentUrl;
+    }
+
+    public void setOpponentUrl(String opponentUrl) {
+        this.opponentUrl = opponentUrl;
     }
 }
